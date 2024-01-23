@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="wrapper">
+    <div class="card">
+      <div class="card__result">
+        <p class="card__result--result">Your Result</p>
+        <div class="card__result--percentage">
+          <span class="card__result--myresult">76</span>
+          <span class="card__result--of100">of 100</span>
+        </div>
+        <p class="card__result--reaction">Great</p>
+        <p class="card__result--description">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="card__summary">
+        <h1 class="card__summary--title">
+          Summary
+        </h1>
+        <ul class="card__summary--list">
+          <li class="card__summary--listItem listItem--reaction">
+            <span class="card__summary--listItem-logo-name">
+              <img src="assets/images/icon-reaction.svg" alt="">
+              <span class="reaction">Reaction</span>
+            </span>
+            <span class="card__summary--listItem-percentage">
+              <span class="my-score">80</span>
+              <span class="off100">/ 100</span>
+            </span>
+          </li>
+          <li class="card__summary--listItem listItem--memory">
+            <span class="card__summary--listItem-logo-name">
+              <img src="assets/images/icon-memory.svg" alt="">
+              <span class="memory">Memory</span>
+            </span>
+            <span class="card__summary--listItem-percentage">
+              <span class="my-score">92</span>
+              <span class="off100">/ 100</span>
+            </span>
+          </li>
+          <li class="card__summary--listItem listItem--verbal">
+            <span class="card__summary--listItem-logo-name">
+              <img src="assets/images/icon-verbal.svg" alt="">
+              <span class="verbal">Verbal</span>
+            </span>
+            <span class="card__summary--listItem-percentage">
+              <span class="my-score">61</span>
+              <span class="off100">/ 100</span>
+            </span>
+          </li>
+          <li class="card__summary--listItem listItem--visual">
+            <span class="card__summary--listItem-logo-name">
+              <img src="assets/images/icon-visual.svg" alt="">
+              <span class="visual">Visual</span>
+            </span>
+            <span class="card__summary--listItem-percentage">
+              <span class="my-score">72</span>
+              <span class="off100">/ 100</span>
+            </span>
+          </li>
+        </ul>
+        <button type="button" class="card__btn btn btn--primary">Continue</button>
+      </div>
+    </div>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Kamran Kiani</a>.
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
