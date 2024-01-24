@@ -37,6 +37,14 @@ body {
   min-height: 100%;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
 .card {
   max-width: 23.4375rem;
   background-color: hsl(0, 0%, 100%);
@@ -44,6 +52,8 @@ body {
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
+  border-radius: 32px;
+  margin-top: 8px;
 }
 
 .card__result {
@@ -204,11 +214,13 @@ body {
   .card {
     max-width: 46rem;
     flex-direction: row;
+    border-radius: 16px 64px 16px 64px;
+    margin-top: 0;
   }
 
   .card__result {
     padding: 38px 54px 55px 54px;
-    border-radius: 32px;
+    /* border-radius: 32px; */
   }
 
   .card__result--result {
